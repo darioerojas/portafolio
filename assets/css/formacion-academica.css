@@ -100,7 +100,7 @@
     .formacion{
         gap: 0.5rem;
     }
-    .formacion__bloque-img:active{
+    .formacion__bloque-img:hover{
         width: 300px;
         height: 200px;
     }
