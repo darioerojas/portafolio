@@ -104,4 +104,35 @@
         width: 300px;
         height: 200px;
     }
+    .aluraAgility:hover {
+        background-image: url(../img/certificados/certificado_ALURA_agility.png);
+    
+    }
+    .aluraDesarrollo:hover{
+        background-image: url(../img/certificados/certificado_ALURA_desarrollo.png);
+    }
+    .aluraHTML:hover{
+        background-image: url(../img/certificados/certificado_ALURA_html.png);
+    }
+    .aluraProgramacion:hover{
+        background-image: url(../img/certificados/certificado_ALURA_programacion.png);
+    }
+    .EGGlogica:hover{
+        background-image: url(../img/certificados/certificado_EGG_programacion.png);
+    }
+    .telefonicaIT:hover{
+        background-image: url(../img/certificados/certificado_FT_IT.png);
+    }
+    .telefonicaFundamentos:hover{
+        background-image: url(../img/certificados/certificado_FT_programacion.png);
+    }
+    .telefonicaNanogrado:hover{
+        background-image: url(../img/certificados/certificado_FT_transporte.png);
+    }
+    .helsinkiIA:hover{
+        background-image: url(../img/certificados/certificado_AI.png);
+    }
+    .UTNformacion:hover{
+        background-image: url(../img/certificados/certificado_UTN.png);
+    }
 }
