@@ -20,7 +20,7 @@
     transition: 2s;
 }
 .titulo__imagen:hover{
-    background-image: url(../img/foto_dario.jpg);
+    background-image: url(../img/foto_dario.png);
     background-size: 100% 100%;
     min-width: 250px;
     height: 250px;

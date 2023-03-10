@@ -36,62 +36,62 @@
     background-image: url(../img/certificados/logo_alura.png);
 }
 .aluraAgility:active {
-    background-image: url(../img/certificados/certificado_ALURA_agility.JPG);
+    background-image: url(../img/certificados/certificado_ALURA_agility.png);
 
 }
 .aluraDesarrollo{
     background-image: url(../img/certificados/logo_alura.png);
 }
 .aluraDesarrollo:active{
-    background-image: url(../img/certificados/certificado_ALURA_desarrollo.JPG);
+    background-image: url(../img/certificados/certificado_ALURA_desarrollo.png);
 }
 .aluraHTML{
     background-image: url(../img/certificados/logo_alura.png)
 }
 .aluraHTML:active{
-    background-image: url(../img/certificados/certificado_ALURA_html.JPG);
+    background-image: url(../img/certificados/certificado_ALURA_html.png);
 }
 .aluraProgramacion{
     background-image: url(../img/certificados/logo_alura.png);
 }
 .aluraProgramacion:active{
-    background-image: url(../img/certificados/certificado_ALURA_programacion.JPG);
+    background-image: url(../img/certificados/certificado_ALURA_programacion.png);
 }
 .EGGlogica{
     background-image: url(../img/certificados/logo_egg.svg);
 }
 .EGGlogica:active{
-    background-image: url(../img/certificados/certificado_EGG_programacion.JPG);
+    background-image: url(../img/certificados/certificado_EGG_programacion.png);
 }
 .telefonicaIT{
     background-image: url(../img/certificados/logo_telefonica.svg);
 }
 .telefonicaIT:active{
-    background-image: url(../img/certificados/certificado_FT_IT.JPG);
+    background-image: url(../img/certificados/certificado_FT_IT.png);
 }
 .telefonicaFundamentos{
     background-image: url(../img/certificados/logo_telefonica.svg);
 }
 .telefonicaFundamentos:active{
-    background-image: url(../img/certificados/certificado_FT_programacion.JPG);
+    background-image: url(../img/certificados/certificado_FT_programacion.png);
 }
 .telefonicaNanogrado{
     background-image: url(../img/certificados/logo_telefonica.svg);
 }
 .telefonicaNanogrado:active{
-    background-image: url(../img/certificados/certificado_FT_transporte.JPG);
+    background-image: url(../img/certificados/certificado_FT_transporte.png);
 }
 .helsinkiIA{
     background-image: url(../img/certificados/logo_heksinki.png);
 }
 .helsinkiIA:active{
-    background-image: url(../img/certificados/certificado_AI.JPG);
+    background-image: url(../img/certificados/certificado_AI.png);
 }
 .UTNformacion{
     background-image: url(../img/certificados/logo-utn.svg);
 }
 .UTNformacion:active{
-    background-image: url(../img/certificados/certificado_UTN.JPG);
+    background-image: url(../img/certificados/certificado_UTN.png);
 }
 @media only screen and (min-width: 320px) and (max-width: 768px){
     .formacion-parrafo{
