@@ -1,0 +1,107 @@
+.formacion-parrafo{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.formacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    padding: 0 3rem 0 3rem;
+}
+
+.formacion__bloque{
+    display: block;
+    text-align: center;
+}
+.formacion__bloque-txt{
+    width: 150px;
+}
+.formacion__bloque-img{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 120px;
+    cursor:zoom-in;
+}
+.formacion__bloque-img:active{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    
+}
+.aluraAgility{
+    background-image: url(/assets/img/certificados/logo_alura.png);
+}
+.aluraAgility:active {
+    background-image: url(/assets/img/certificados/certificado_ALURA_agility.JPG);
+
+}
+.aluraDesarrollo{
+    background-image: url(/assets/img/certificados/logo_alura.png);
+}
+.aluraDesarrollo:active{
+    background-image: url(/assets/img/certificados/certificado_ALURA_desarrollo.JPG);
+}
+.aluraHTML{
+    background-image: url(/assets/img/certificados/logo_alura.png);
+}
+.aluraHTML:active{
+    background-image: url(/assets/img/certificados/certificado_ALURA_html.JPG);
+}
+.aluraProgramacion{
+    background-image: url(/assets/img/certificados/logo_alura.png);
+}
+.aluraProgramacion:active{
+    background-image: url(/assets/img/certificados/certificado_ALURA_programacion.JPG);
+}
+.EGGlogica{
+    background-image: url(/assets/img/certificados/logo_egg.svg);
+}
+.EGGlogica:active{
+    background-image: url(/assets/img/certificados/certificado_EGG_programacion.JPG);
+}
+.telefonicaIT{
+    background-image: url(/assets/img/certificados/logo_telefonica.svg);
+}
+.telefonicaIT:active{
+    background-image: url(/assets/img/certificados/certificado_FT_IT.JPG);
+}
+.telefonicaFundamentos{
+    background-image: url(/assets/img/certificados/logo_telefonica.svg);
+}
+.telefonicaFundamentos:active{
+    background-image: url(/assets/img/certificados/certificado_FT_programacion.JPG);
+}
+.telefonicaNanogrado{
+    background-image: url(/assets/img/certificados/logo_telefonica.svg);
+}
+.telefonicaNanogrado:active{
+    background-image: url(/assets/img/certificados/certificado_FT_transporte.JPG);
+}
+.helsinkiIA{
+    background-image: url(/assets/img/certificados/logo_heksinki.png);
+}
+.helsinkiIA:active{
+    background-image: url(/assets/img/certificados/certificado_AI.JPG);
+}
+.UTNformacion{
+    background-image: url(/assets/img/certificados/logo-utn.svg);
+}
+.UTNformacion:active{
+    background-image: url(/assets/img/certificados/certificado_UTN.JPG);
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .formacion-parrafo{
+        font-size: 1rem;
+    }
+    .formacion{
+        gap: 0.5rem;
+    }
+    .formacion__bloque-img:active{
+        width: 300px;
+        height: 200px;
+    }
+}

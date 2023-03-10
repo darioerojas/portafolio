@@ -1,0 +1,32 @@
+body{
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+    color: aliceblue;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    h3{
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+section{
+    padding: 1.5rem;
+}
+
+

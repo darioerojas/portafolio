@@ -1,0 +1,74 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 1.5rem;
+}
+.cabecera__titulo{
+    display: flex;
+    align-items:end;
+    gap: 15px;
+}
+.cabecera__titulo-letraD{   
+    width: 3rem;
+}
+.cabecera__titulo-nombre{
+    font-size: 1.5rem;
+}
+ol, ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+.cabecera__menu{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top: 30px;
+    border-radius: 20px 0 0 20px;
+    transition: 1s;
+    overflow: hidden;
+}
+.cabecera__menu:hover {
+    width: 100px;
+    height: 300px;
+}
+.cabecera__menu-img{
+    margin-left: 4px;
+    width: 50px;
+    cursor:pointer;
+}
+.cabecera__menu-item{
+    padding: 7px;
+    transition: 1s;
+    font-size: 16px;
+}
+.cabecera__menu a:hover{
+    transition: 0s;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px){
+    .cabecera__menu{
+        background-color: rgba(255, 255, 255, 0.247);
+        width: 50px;
+        top: 10px;
+    }
+    .cabecera__titulo{
+        gap: 5px;
+    }
+    .cabecera__titulo-letraD{   
+        width: 2.5rem;
+    }
+    .cabecera__titulo-nombre{
+        font-size: 1.2rem;
+    }
+}
+
