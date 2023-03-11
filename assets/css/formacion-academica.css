@@ -1,138 +1,77 @@
-.formacion-parrafo{
+.formacion__parrafo{
     text-align: center;
     font-size: 1.5rem;
 }
-.formacion{
+.formacion__seccion{
     display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+}
+
+.formacion__seccion-bloque{
+    border-top: black solid 0.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.formacion__seccion-bloque--img img{
+    padding: 1rem;
+    width: 200px;
+}
+.formacion__seccion-bloque--ul{
+    width: 400px;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+.formacion__seccion-bloque--ul li{
+    list-style-type: circle;
+}
+.formacion__certificado{
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 1.5rem;
-    padding: 0 3rem 0 3rem;
 }
-
-.formacion__bloque{
-    display: block;
+.formacion__certificado-bloque{
+    background-color: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    margin: 0.5rem;
     text-align: center;
+    width: 300px;
+    height: 250px;
 }
-.formacion__bloque-txt{
-    width: 150px;
+.formacion__certificado-img{
+    padding: 1rem;
 }
-.formacion__bloque-img{
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 150px;
-    height: 120px;
-    cursor:zoom-in;
-}
-.formacion__bloque-img:active{
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    width: 400px;
-    height: 300px;
-    
-}
-.aluraAgility{
-    background-image: url(../img/certificados/logo_alura.png);
-}
-.aluraAgility:active {
-    background-image: url(../img/certificados/certificado_ALURA_agility.png);
-
-}
-.aluraDesarrollo{
-    background-image: url(../img/certificados/logo_alura.png);
-}
-.aluraDesarrollo:active{
-    background-image: url(../img/certificados/certificado_ALURA_desarrollo.png);
-}
-.aluraHTML{
-    background-image: url(../img/certificados/logo_alura.png)
-}
-.aluraHTML:active{
-    background-image: url(../img/certificados/certificado_ALURA_html.png);
-}
-.aluraProgramacion{
-    background-image: url(../img/certificados/logo_alura.png);
-}
-.aluraProgramacion:active{
-    background-image: url(../img/certificados/certificado_ALURA_programacion.png);
-}
-.EGGlogica{
-    background-image: url(../img/certificados/logo_egg.svg);
-}
-.EGGlogica:active{
-    background-image: url(../img/certificados/certificado_EGG_programacion.png);
-}
-.telefonicaIT{
-    background-image: url(../img/certificados/logo_telefonica.svg);
-}
-.telefonicaIT:active{
-    background-image: url(../img/certificados/certificado_FT_IT.png);
-}
-.telefonicaFundamentos{
-    background-image: url(../img/certificados/logo_telefonica.svg);
-}
-.telefonicaFundamentos:active{
-    background-image: url(../img/certificados/certificado_FT_programacion.png);
-}
-.telefonicaNanogrado{
-    background-image: url(../img/certificados/logo_telefonica.svg);
-}
-.telefonicaNanogrado:active{
-    background-image: url(../img/certificados/certificado_FT_transporte.png);
-}
-.helsinkiIA{
-    background-image: url(../img/certificados/logo_heksinki.png);
-}
-.helsinkiIA:active{
-    background-image: url(../img/certificados/certificado_AI.png);
-}
-.UTNformacion{
-    background-image: url(../img/certificados/logo-utn.svg);
-}
-.UTNformacion:active{
-    background-image: url(../img/certificados/certificado_UTN.png);
+.formacion__certificado-img img{
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
 }
 @media only screen and (min-width: 320px) and (max-width: 768px){
-    .formacion-parrafo{
-        font-size: 1rem;
+    .formacion__seccion-bloque {
+        border-top: black solid 0.5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
-    .formacion{
-        gap: 0.5rem;
+    .formacion__seccion-bloque--img img{
+        padding: 0.5rem;
+        width: 90px;
     }
-    .formacion__bloque-img:hover{
-        width: 300px;
-        height: 200px;
-    }
-    .aluraAgility:hover {
-        background-image: url(../img/certificados/certificado_ALURA_agility.png);
-    
-    }
-    .aluraDesarrollo:hover{
-        background-image: url(../img/certificados/certificado_ALURA_desarrollo.png);
-    }
-    .aluraHTML:hover{
-        background-image: url(../img/certificados/certificado_ALURA_html.png);
-    }
-    .aluraProgramacion:hover{
-        background-image: url(../img/certificados/certificado_ALURA_programacion.png);
-    }
-    .EGGlogica:hover{
-        background-image: url(../img/certificados/certificado_EGG_programacion.png);
-    }
-    .telefonicaIT:hover{
-        background-image: url(../img/certificados/certificado_FT_IT.png);
-    }
-    .telefonicaFundamentos:hover{
-        background-image: url(../img/certificados/certificado_FT_programacion.png);
-    }
-    .telefonicaNanogrado:hover{
-        background-image: url(../img/certificados/certificado_FT_transporte.png);
-    }
-    .helsinkiIA:hover{
-        background-image: url(../img/certificados/certificado_AI.png);
-    }
-    .UTNformacion:hover{
-        background-image: url(../img/certificados/certificado_UTN.png);
+    .formacion__seccion-bloque--ul{
+        width: 150px;
+        font-size: 0.8rem;
     }
 }
+
+
+
+

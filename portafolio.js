@@ -6,6 +6,60 @@ const btnDocumento = document.getElementById("btn-documento");
       window.open('assets/data/Profile.pdf', "_blank");
     });
 
+//ver certificados
+
+const ai = document.getElementById("certificado-AI");
+const agility = document.getElementById("certificado-agility");
+const desarrollo = document.getElementById("certificado-desarrollo");
+const htmlAlura = document.getElementById("certificado-html");
+const progAlura = document.getElementById("certificado-programacionAlura");
+const progEGG = document.getElementById("certificado-programacionEGG");
+const progTel = document.getElementById("certificado-programacionTelefonica");
+const transp = document.getElementById("certificado-transporte");
+const utn = document.getElementById("certificado-utn");
+const itTelef = document.getElementById("certificado-IT");
+
+ai.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_AI.png', "_blank");
+});
+
+agility.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_ALURA_agility.png', "_blank");
+});
+
+htmlAlura.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_ALURA_html.png', "_blank");
+});
+
+progAlura.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_ALURA_programacion.png', "_blank");
+});
+
+progEGG.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_EGG_programacion.png', "_blank");
+});
+
+progTel.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_FT_programacion.png', "_blank");
+});
+
+transp.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_FT_transporte.png', "_blank");
+});
+
+utn.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_UTN.png', "_blank");
+});
+
+desarrollo.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_ALURA_desarrollo.png', "_blank");
+});
+itTelef.addEventListener("click", function() {
+  window.open('assets/img/certificados/certificado_FT_IT.png', "_blank");
+});
+
+
+
 //formulario
 
 const form = document.getElementById('contact-form');
