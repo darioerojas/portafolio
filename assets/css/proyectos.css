@@ -33,11 +33,11 @@
         margin-top: 0rem;
     }
     .gallery {
-        gap: 5px;
+        gap: 8px;
     }
     .gallery-item img{
-        width: 350px;
-        height: auto;
+        width: 200px;
+        height: 200px;
     }
 }
 

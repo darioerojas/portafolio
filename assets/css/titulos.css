@@ -1,9 +1,8 @@
 .titulo{
     display: flex;
-    margin-top: 15px;
     justify-content: center;
     text-align: center;
-    padding: 3rem;
+    margin-top: 2rem;
 }
 .titulo__container{
     display: flex;
@@ -51,7 +50,7 @@
 }
 .titulo__presentacion h2{
     font-size: 2.5rem;
-    margin-bottom: 30px;
+    
 }
 .titulo__presentacion p{
     font-size: 1.5rem;

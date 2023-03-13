@@ -1,26 +1,20 @@
 .redes{
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: end;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
     
 }
 .redes img{
-    width: 50px;
-}
-.github img{
-    width: 120px;
+    width: 40px;
 }
 .redes-icono img:hover{
     transition: 0.5s;
-    width: 40px;
+    transform: scale(0.9);
     opacity: 0.5;
 }
-.github img:hover{
-    width: 110px;
-    opacity: 0.5;
-}
+
 @media only screen and (min-width: 320px) and (max-width: 768px){
     .redes{
         margin-bottom: 1.5rem;
@@ -29,7 +23,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 25px;
+        gap: 20px;
         padding: 0 2rem 0 2rem;
     }
 }
